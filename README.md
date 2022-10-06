@@ -66,7 +66,9 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 * Bilgisayara Linux dagitimi kurmak
 * Github Discussion sayfasinda aktif olmak
 * Bu sayfayi duzenli araliklarla kontrol etmek
-* Bu sayfada ilan edilecek proje ve odevleri yapmak
+* Bu sayfada ilan edilecek proje ve odevlerde istenilenleri yapmak
+* Universite email hesabinizi duzenli araliklarla kontrol etmek.
+
 
 
 
