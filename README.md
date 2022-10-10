@@ -33,6 +33,8 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 
 * [C Programming Language, 2nd Edition](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628/ref=sr_1_1?crid=YQFLRR2SUKAG&keywords=c+programming&qid=1665091837&qu=eyJxc2MiOiI1LjIxIiwicXNhIjoiNC42OCIsInFzcCI6IjQuNjMifQ%3D%3D&s=books&sprefix=c+programming%2Cstripbooks-intl-ship%2C275&sr=1-1)
 
+* C dilinde kendini eksik goren ogrencilerimizin https://exercism.org/tracks/c sayfasindaki alistirmalari kodlamalari ve dogru kodladiklari alistirmalari baskalarinin nasil kodladigini incelemeleri tavsiye edilir.
+
 ### Onerilen Linux Dagitimlari
 
 * [Distrowatch](https://distrowatch.com/)
@@ -68,6 +70,8 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 * Bu sayfayi duzenli araliklarla kontrol etmek
 * Bu sayfada ilan edilecek proje ve odevlerde istenilenleri yapmak
 * Universite email hesabinizi duzenli araliklarla kontrol etmek.
+
+
 
 
 
