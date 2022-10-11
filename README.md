@@ -2,6 +2,12 @@
 
 Bu repo'da uygulama derslerine ait materyallere (ders notlari, odev bilgileri, proje bilgileri, duyurular vb.) ulasabilirsiniz.
 
+## DUYURU
+
+**Proje 1 (Ekstra Proje) ilan edilmistir.**
+
+[Detaylar](https://github.com/gusanmaz/BMB311_OS/blob/main/project.md)
+
 ### Instructor
 
 Ars. Gor. Güvenç Usanmaz
