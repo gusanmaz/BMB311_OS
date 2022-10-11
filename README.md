@@ -54,6 +54,10 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 * Cygwin (?)
 * [Repl.it](replit.com)
 
+### AWS'de Linux Istance'i Olusturma
+
+[https://github.com/Mona-Roza/Notes/tree/main/About%20Server%20%26%20About%20Linux](https://github.com/Mona-Roza/Notes/tree/main/About%20Server%20%26%20About%20Linux)
+
 #### Kurulumda Dikkat Edilecekler
 * Onemli Verilerin Yedeklenmesi
 * BIOS Boot Oncelikleri
