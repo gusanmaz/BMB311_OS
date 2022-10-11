@@ -20,9 +20,8 @@ yeniden baslatildiginda Deep Freeze'in aktive edildigi zamandaki sisteme geri do
 
 Bu durumda sistemde degisiklik yapabilmek icin once Deep Freze programini thawed durumuna 
 (bilgisayari yeniden baslatmayi gerektiriyor - boot thawed) getirmek ve gerekli degisikleri
-yapip sistemde Deep Freeze'i yeniden frozen duruma getirmek (bilgisayari yeniden baslatma gerektiriyor 
-- boot frozen) gerekmektedir. Deep Freeze'in calisma mantigini daha iyi anlamak icin bu programi kendi bilgisayarinizda
-denemeniz faydali olabilir.
+yapip sistemde Deep Freeze'i yeniden frozen duruma getirmek (bilgisayari yeniden baslatma gerektiriyor - boot frozen) gerekmektedir.
+Deep Freeze'in calisma mantigini daha iyi anlamak icin bu programi kendi bilgisayarinizda denemeniz faydali olabilir.
 
 B205'deki yeni Dell bilgisayarlara Windows sistemler kurulurken guc ayarlari dogru yapilmamistir. Monitor uzerindeki
 guc tusuna basildiginda bilgisayarlar kendini uykuya almaktadir ama guc tusuna basildiginda bilgisayarin kendini kapamasi
