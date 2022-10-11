@@ -9,7 +9,7 @@
 ### Problem Tanimi
 
 B205 laboratuvarina yeni alinan makinalardaki Windows 11 sistemlere
-[Deep Freeze]([https://www.faronics.com/en-uk/products/deep-freeze) yazilimi kurulmustur. Windows sistemlere bu 
+[Deep Freeze](https://www.faronics.com/en-uk/products/deep-freeze) yazilimi kurulmustur. Windows sistemlere bu 
 yazilimin kurulmasinin ana nedenleri:
 * Bilgisayarlari kullanan ogrencilerin Windows sistemlere kalici olarak program yuklemesinin
 * Diske kaydedilen ve sonradan silinmeyen dosyalarla diskin sismesinin
@@ -32,7 +32,7 @@ otomatize edecek bir script/program yazmak bu isin yapimini hizlandiracak ve vak
 ### Ek Bilgiler
 
 * Windows bilgisayarlarda SSH sunucusu calismaktadir. Windows bilgisayarlara lokal IP adresleri kullanilarak SSH ile 
-baglanilabilir. Yazacaginiz script/program belirli bir prefix'e sahip (Ornegin 10.202.17.***) tum IP adreslerine 
+baglanilabilir. Yazacaginiz script/program belirli bir prefix'e sahip (Ornegin `10.202.17.***`) tum IP adreslerine 
 SSH ile baglanmaya calisabilir. Yazacaginiz program SSH taramasi yapilacak IP prefix'ini, Windows admin hesabinin
 sifresini ve Deep Freeze sifresini parametre olarak alabilir.
 * Deep Freeze CLI'e [https://www.faronics.com/assets/DF_RemoteAdministration.pdf](https://www.faronics.com/assets/DF_RemoteAdministration.pdf)
@@ -46,8 +46,8 @@ kodlayabilirsiniz. Programlama dillerinin sagladigi kutuphaneleri kullanarak da 
 Ornegin Python'da terminal komutlarinin nasil calistirilabilecegi
 [https://janakiev.com/blog/python-shell-commands/](https://janakiev.com/blog/python-shell-commands/) dokumaninda 
 aciklanmaktadir. 
-* Yazacaginiz script veya programin paralel SSH baglantilari yapmasi tercih edilmektedir. Ornegin 10.202.17.1 adresine
-yapilacak olan SSH baglantisi ile 10.202.17.15 adresine yapilacak olan SSH baglantisi es zamanli olabilir. Eger bir
+* Yazacaginiz script veya programin paralel SSH baglantilari yapmasi tercih edilmektedir. Ornegin `10.202.17.1` adresine
+yapilacak olan SSH baglantisi ile `10.202.17.15` adresine yapilacak olan SSH baglantisi es zamanli olabilir. Eger bir
 bilgisayardaki guc ayarlari degistirildikten sonra baska bir bilgisayara SSH baglantisi yapilirsa her bir bilgisayarda
 guc ayarlarini degistirmenin 5 dakika vakit aldigi varsayilirsa programiniz labdaki tum yeni bilgisayarlarin guc
 ayarlarini degistirmesi 5 * 40 = 200 dakika surebilir. SSH baglantilari paralel yapilirsa programiniz tum yeni 
@@ -60,7 +60,7 @@ cozmesi beklenen sorunu cozup cozemedigini test ediniz.
 
 ### Proje Gonderimi - Submission
 
-* Son gonderim tarihi: 23 Ekim 2022 - 23:59
+* Son gonderim tarihi: `23 Ekim 2022 - 23:59`
 * Proje reponuzu [https://classroom.github.com/a/tq66HZgD](https://classroom.github.com/a/tq66HZgD) 
 davet linki (Github Classroom) uzerinden olusturunuz. Bu yolla olusturulacak repositoryler daha kolay izlenebilmekte
 ve toplu olarak indirilebilmektedir.
