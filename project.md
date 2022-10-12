@@ -31,7 +31,7 @@ otomatize edecek bir script/program yazmak bu isin yapimini hizlandiracak ve vak
 
 ### Ek Bilgiler
 
-* Windows bilgisayarlarda SSH sunucusu calismaktadir. Windows bilgisayarlara lokal IP adresleri kullanilarak SSH ile 
+* Windows bilgisayarlarda [SSH](https://www.baeldung.com/cs/ssh-intro) sunucusu calismaktadir. Windows bilgisayarlara lokal IP adresleri kullanilarak SSH ile 
 baglanilabilir. Yazacaginiz script/program belirli bir prefix'e sahip (Ornegin `10.202.17.***`) tum IP adreslerine 
 SSH ile baglanmaya calisabilir. Yazacaginiz program SSH taramasi yapilacak IP prefix'ini, Windows admin hesabinin
 sifresini, Deep Freeze sifresini ve programin paralel mi, seri mi calistirilmak istendigini parametre olarak alabilir. 
