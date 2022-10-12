@@ -63,6 +63,7 @@ yer alacak `README.md` isimli bir dosyada ayrintili bir sekilde aciklayiniz. Ayn
 (kendiniz ve varsa proje grup uyelerinin) isim soyisim ve ogrenci numara bilgilerine yer veriniz.
 * Mumkunse laboratuvar kosullarini Deep Freeze yuklu birkac bilgisayari ayni lokal aga baglayarak simule ederek yazdiginiz kodun
 cozmesi beklenen sorunu cozup cozemedigini test ediniz.
+* Her ihtimale karsi Windows bilgisayarlariniza Deep Freeze yuklemeden onemli verileriniz yedekleyiniz!
 
 ### Proje Gonderimi - Submission
 
