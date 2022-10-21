@@ -6,7 +6,7 @@ Bu repo'da uygulama derslerine ait materyallere (ders notlari, odev bilgileri, p
 
 ***Proje 1 (Ekstra Proje) ilan edilmistir.***
 
-[Detaylar](https://github.com/gusanmaz/BMB311_OS/blob/main/project.md)
+[Detaylar](https://github.com/gusanmaz/BMB311_OS/blob/main/projects.md)
 
 ### Instructor
 
