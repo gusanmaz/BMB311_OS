@@ -64,6 +64,10 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 
 [https://github.com/Mona-Roza/Notes/tree/main/About%20Server%20%26%20About%20Linux](https://github.com/Mona-Roza/Notes/tree/main/About%20Server%20%26%20About%20Linux)
 
+### Oracle VM VirtualBox Üzerine Debian Linux Kurulumu
+
+[https://medium.com/@zeynepssasmaz953/oracle-vm-virtualbox-u%CC%88zerine-debian-linux-kurulumu-2c87dbe64aa9](https://medium.com/@zeynepssasmaz953/oracle-vm-virtualbox-u%CC%88zerine-debian-linux-kurulumu-2c87dbe64aa9)
+
 #### Kurulumda Dikkat Edilecekler
 * Onemli Verilerin Yedeklenmesi
 * BIOS Boot Oncelikleri
