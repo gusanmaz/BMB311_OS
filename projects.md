@@ -203,7 +203,7 @@ Proje icin yazacaginiz kodun gercekten 1023 cocuk process olusturup olusturmadig
 * Bu proje icin yazacaginiz program calistirildiginda
     * basliktan sonraki en ust satira calisan processing id, pid (parent id) ve ismi (programi calistiran komut) ekrana yazdirilacak;
     * sonraki satirlarda ise bir ust satirdaki processin ebeveyni olan processe dair ayni tur bilgiler (id, pid ve komut) yazdirilacaktir.
-* Dolayisyla son satirda butun processlerin ebevyni olan id degeri 1 olan processe (init processi) dair bilgiler ekrana yazdirilacaktir.
+* Dolayisyla son satirda butun processlerin ebevyni olan id degeri 1 olan processe (init, systemd) dair bilgiler ekrana yazdirilacaktir.
 
 ### Uyarilar
 
