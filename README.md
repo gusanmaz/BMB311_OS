@@ -27,6 +27,7 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 * [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) ***Teorik Kaynak***
 * [Advanced Linux Programming](https://mentorembedded.github.io/advancedlinuxprogramming/alp-folder/) ***Pratik Kaynak***
 * [Operating Systems: Crash Course Computer Science #18](https://www.youtube.com/watch?v=26QPDBe-NB8) ***~10 dakikada isletim sistemleri***
+* [Turkce Linux Dersleri](https://linux-dersleri.github.io/)
 
 #### Komut Satiri ve Kabuk Programlama
 
