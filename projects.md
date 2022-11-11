@@ -97,7 +97,7 @@ adresindeki kodlari incelemeniz faydali olacaktir.
 
 ### Ornek Kod
 
-Asagida verilen ornek kod (main.c) 7 cocuk process olusturmaktadir.
+Asagida verilen ornek kod `main.c` 7 cocuk process olusturmaktadir.
 
 ```c
 #include <stdio.h>
