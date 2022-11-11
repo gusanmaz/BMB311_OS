@@ -74,23 +74,34 @@ ve toplu olarak indirilebilmektedir.
 
 ## Proje No: 1 - 1023 Cocuk Process Olusturma
 
-[Proje Dave Linki](https://classroom.github.com/a/VP9bCWRY)
+### Proje Aciklamasi
 
 * Calistirildiginda 1023 tane cocuk process (child process) olusturan bir program yaziniz.
 * Ana process (ilk process) ile beraber program calistirildiginda toplam 1024 (1 + 1023) process olusturulmalidir.
 * Cocuk processlerin hepsi ana processin dogrudan cocugu olacak sekilde olusturulabilir.
-* Programiniz POSIX API sistemlerde (ornegin Linux) calistirilabilir olmalidir.
-* Programinizi C dili kullanarak yaziniz. 
-* Tum C kodunu main.c isimli bir dosya icinde yaziniz.
-* Davet linkini tiklayarak repo olusturdugunuzda size bos bir main.c dosyasi verilecektir.
-* Bu dosya uzerinde gerekli degisikleri yaptiktan sonra kodunuzu commit edebilirsiniz.
 * Bu programi yazabilmek icin `fork` ve `wait` sistem cagrilarini kullanmaniz gerekmektedir.
 * `fork` ve `wait` sistem cagrilari hakkinda detayli bilgiye `man fork` ve `man wait` komutlarini kullanarak erisebilirsiniz.
 * Olusturulan cocuk processler herhangi bir is yapmak zorunda degildir.
 * Yazacaginiz program 50 satirdan uzun olmasin.
 * Ana process ve onun olusturacagi cocuk processlerin herhangi bir is yapmasi gerekmemektedir. 
 * Dilerseniz ana process ve cocuk process icinde ekrana bir takim bilgiler (process ID gibi) yazdirabilirsiniz.
+
+### Uyarilar
+
+* Programiniz POSIX API sistemlerde (ornegin Linux) calistirilabilir olmalidir.
+* Programinizi C dili kullanarak yaziniz. 
+* Tum C kodunu main.c isimli bir dosya icinde yaziniz.
+* Davet linkini tiklayarak repo olusturdugunuzda size bos bir main.c dosyasi verilecektir.
+* Bu dosya uzerinde gerekli degisikleri yaptiktan sonra kodunuzu commit edebilirsiniz.
+
 * Gonderdiginiz kodun sorunsuz derlenebildiginden emin olunuz. Derleme hatasi alacak projeler 0 puan olacaktir!
+* Derlenen projenizin calisma esnasinda hata uretmediginden emin olun. Calisirken hata alabilecek projeler projeden dusuk puan almaniza sebep olabilir.
+* Bu proje otomatik kod degerlendirme sistemi tarafindan degerlendirilebilir.
+* Bu projenin kodlanmasinda her ogrencinin bireysel calismasi beklenmektedir. 
+* Proje notlari ilan edildikten sonra yazdiginiz kodlari aciklamaniz istenebilir. Yazilan kodlari duzgun aciklayamayan ogrencilerin proje notlari degisebilir.
+
+### Kaynaklar 
+
 * Bu projeyi yapmak icin [https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf)
 kitap bolumunu ve [https://github.com/remzi-arpacidusseau/ostep-code/tree/master/cpu-api](https://github.com/remzi-arpacidusseau/ostep-code/tree/master/cpu-api)
 adresindeki kodlari incelemeniz faydali olacaktir.
@@ -121,13 +132,14 @@ int main(int argc, char *argv[])
 }
 ```
 
-### Derleme ve Calistirma
+#### Ornek Kod Derleme ve Calistirma
 
-Bu kod terminalde `gcc -o main main.c` komutu ile derlenebilir. 
-Kod derlendiginde programin ciktisi asagidaki ciktiya benzer olacaktir.
-Ekrana olusturulan processlerin ID degerleri yazdirildigi icin asagidaki ciktinin birebir aynisini almayi beklemeyin.
+* Bu kod terminalde `gcc -o main main.c` komutu ile derlenebilir. 
+* Derlenen program `./main` komutu ile calistirilabilir.
+* Kod derlendiginde programin ciktisi asagidaki ciktiya benzer olacaktir.
+* Ekrana olusturulan processlerin ID degerleri yazdirildigi icin asagidaki ciktinin birebir aynisini almayi beklemeyin.
 
-```
+```bash
 773516-773517-773518
 773516-773517-0
 773516-0-773520
@@ -178,8 +190,148 @@ toplamda 7 cocuk process olusturdugunu soyleyebiliriz.
 Proje icin yazacaginiz kodun gercekten 1023 cocuk process olusturup olusturmadigini siz de `strace` komutu ile test edebilirsiniz.
 `strace` komutunu neden `-cf` secenekleri (options) ile kullandigimizi arastiriniz. 
 
-### Proje Gonderimi - Submission
+### Gonderim
 
+* [Proje Dave Linki](https://classroom.github.com/a/VP9bCWRY)
 * Son gonderim tarihi: `26 Kasim 2022 - 23:59`
+* Projenize (reponuza) {ogrenci.no}.txt bir bos dosya ekleyiniz. Ogrenci numarasi 1234567890 olan birinin projesine eklemesi gereken bos dosyanin ismi 1234567890.txt olmalidir. Bu dosya sayesinde Github kullanici adlari ile dersi alan ogrenciler eslestirilecektir. 
 
+## Proje No: 2 - Process Ebevynlerinin Listelenmesi
+
+### Proje Tanimi
+
+* Bu proje icin yazacaginiz program calistirildiginda
+    * basliktan sonraki en ust satira calisan processing id, pid (parent id) ve ismi (programi calistiran komut) ekrana yazdirilacak;
+    * sonraki satirlarda ise bir ust satirdaki processin ebeveyni olan processe dair ayni tur bilgiler (id, pid ve komut) yazdirilacaktir.
+* Dolayisyla son satirda butun processlerin ebevyni olan id degeri 1 olan processe (init processi) dair bilgiler ekrana yazdirilacaktir.
+
+### Uyarilar
+
+* Programiniz Linux sistemlerde calistirilabilir olmalidir.
+* Programinizi C dili kullanarak yaziniz. 
+* Tum C kodunu main.c isimli bir dosya icinde yaziniz.
+* Davet linkini tiklayarak repo olusturdugunuzda size bos bir main.c dosyasi verilecektir.
+* Bu dosya uzerinde gerekli degisikleri yaptiktan sonra kodunuzu commit edebilirsiniz.
+* Gonderdiginiz kodun sorunsuz derlenebildiginden emin olunuz. Derleme hatasi alacak projeler 0 puan olacaktir!
+* Derlenen projenizin calisma esnasinda hata uretmediginden emin olun. Calisirken hata alabilecek projeler projeden dusuk puan almaniza sebep olabilir.
+* Bu proje otomatik kod degerlendirme sistemi tarafindan degerlendirilebilir.
+* Bu projenin kodlanmasinda her ogrencinin bireysel calismasi beklenmektedir. 
+* Proje notlari ilan edildikten sonra yazdiginiz kodlari aciklamaniz istenebilir. Yazilan kodlari duzgun aciklayamayan ogrencilerin proje notlari degisebilir.
+
+### Kaynaklar
+
+* Bu projeyi yapmak icin [https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf)
+kitap bolumunu ve [https://github.com/remzi-arpacidusseau/ostep-code/tree/master/cpu-api](https://github.com/remzi-arpacidusseau/ostep-code/tree/master/cpu-api)
+adresindeki kodlari incelemeniz faydali olacaktir.
+
+### Ornek Kod
+
+* Asagida verilen `main.c` kodu derlendiginde ve calistirildiginda; calistirilan process icin id, pid ve komut bilgilerini tablo formatinda ekrana yazdiracaktir. 
+* Ornek kodda id degeri bilinen herhangi bir process icin pid ve komut bilgilerini elde etmenizi saglayacak `get_ppid` ve `get_name` fonksiyonlari yazilmistir. Linux sistemlerde her bir processe dair cesitli bilgilere /proc dizininden erisilebilmektedir. Size hazir verilen bu iki fonksiyonun calisma mantigini daha iyi anlamak icin /proc dizinin calisma mantigi hakkinda biraz bilgi edinmek faydali olacaktir. `man proc` komutu ile bu dizin hakkinda bilgi edinebilirsiniz.
+* Ornek kodda tablo basligini yazdirmak icin `print_header`; bir processe ait bilgileri tabloya yazdirabilmek icinse `print_process_info` fonksiyonlari kullanilmistir. Proje icin yazacagin kodda da ekrana bilgi yazdirma isini sadece
+bu iki fonksiyonu kullanarak yapiniz. Bu iki fonksiyonun kodlari ile oynamayiniz. 
+* Ornek kodda tanimlanan `get_ppid`, `get_name`, `print_header`, `print_process_info` fonksiyonlarini projenizdeki `main.c` isimli dosyaya kopyalayip iceriklerinde bir degisiklik yapmadan projenizde kullanabilirsiniz.
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <string.h>
+
+
+void get_ppid(const pid_t pid, pid_t * ppid) {
+   char buffer[1024];
+   sprintf(buffer, "/proc/%d/stat", pid);
+   FILE* fp = fopen(buffer, "r");
+   if (fp) {
+      size_t size = fread(buffer, sizeof (char), sizeof (buffer), fp);
+      if (size > 0) {
+         // http://man7.org/linux/man-pages/man5/proc.5.html -> /proc/[pid]/stat
+         strtok(buffer, " "); // (1) pid  %d
+         strtok(NULL, " "); // (2) comm  %s
+         strtok(NULL, " "); // (3) state  %c
+         char * s_ppid = strtok(NULL, " "); // (4) ppid  %d
+         *ppid = atoi(s_ppid);
+      }
+      fclose(fp);
+   }
+}
+
+char* get_name(const pid_t pid){
+    char path[1024] = "";
+    char pids[20];
+    sprintf(pids, "%d", pid);
+
+    strcat(path, "/proc/");
+    strcat(path, pids);
+    strcat(path, "/cmdline");
+
+    FILE* fp = fopen(path, "r");
+    if(fp == NULL){
+      printf("Cannot open the file!");
+      exit(1);
+   }
+
+   char* pname = malloc(1024);
+   fscanf(fp, "%s", pname);
+   return pname;
+}
+
+void print_process_info(const pid_t pid, pid_t ppid, char* pname){
+    printf("%-20d%-20d%-50s\n", pid, ppid, pname);
+}
+
+void print_header(){
+    printf("%-20s%-20s%-50s\n", "ID", "Parent ID", "Command");
+}
+
+
+int main(int argc, char *argv[])
+{
+   int pid =  getpid();
+   int ppid;
+   get_ppid(pid, &ppid);
+   char* pname = get_name(pid);
+
+   print_header();
+   print_process_info(pid, ppid, pname);
+   free(pname);
+}
+```
+
+#### Ornek Kod Derleme ve Calistirma
+
+* Bu kod terminalde `gcc -o main main.c` komutu ile derlenebilir. Derlenen program `./main` komutu ile calistirilabilir.
+* Kod derlendiginde programin ciktisi asagidaki ciktiya benzer olacaktir.
+* Ekrana calisan processin id ve pid degerleri de yazdirildigi icin asagidaki ciktinin birebir aynisini gormeyi beklemeyin.
+
+```bash
+ID                  Parent ID           Command                                              
+782663              782612              ./main
+```
+
+### Projenin Derlenmesi ve Calistirilmasi
+
+* Projeniz terminalde `gcc -o main main.c` komutu ile derlenebilir. Derlenen projeniz `./main` komutu ile calistirilabilir.
+* Projeniz calistirildiginda uretecegi ciktigi asagidaki ciktiya benzer olacaktir. 
+* Projeniz cesitli id ve pid degerleri de yazdirildigi icin asagidaki ciktinin birebir aynisini gormeyi beklemeyin. 
+* Ayrica projenizi calistirdiginiz sisteme ve terminal programina bagli olarak proje processinin ebevyni olan processlerin komut isimleri de farkli olabilir.
+
+#### Ornek Cikti
+
+```bash
+ID                  Parent ID           Command                                              
+783001              782612              ./main                                            
+782612              609630              /bin/bash                                         
+609630              609333              /usr/bin/kate                                     
+609333              609170              /usr/bin/ksmserver                                
+609170              1                   /lib/systemd/systemd
+```
+
+### Gonderim
+
+* [Proje Dave Linki](https://classroom.github.com/a/TN096GAE)
+* Son gonderim tarihi: `26 Kasim 2022 - 23:59`
+* Projenize (reponuza) {ogrenci.no}.txt bir bos dosya ekleyiniz. Ogrenci numarasi 1234567890 olan birinin projesine eklemesi gereken bos dosyanin ismi 1234567890.txt olmalidir. Bu dosya sayesinde Github kullanici adlari ile dersi alan ogrenciler eslestirilecektir. 
 
