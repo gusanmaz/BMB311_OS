@@ -192,7 +192,7 @@ Proje icin yazacaginiz kodun gercekten 1023 cocuk process olusturup olusturmadig
 
 ### Gonderim
 
-* [Proje Dave Linki](https://classroom.github.com/a/VP9bCWRY)
+* [Proje Davet Linki](https://classroom.github.com/a/VP9bCWRY)
 * Son gonderim tarihi: `26 Kasim 2022 - 23:59`
 * Projenize (reponuza) {ogrenci.no}.txt bir bos dosya ekleyiniz. Ogrenci numarasi 1234567890 olan birinin projesine eklemesi gereken bos dosyanin ismi 1234567890.txt olmalidir. Bu dosya sayesinde Github kullanici adlari ile dersi alan ogrenciler eslestirilecektir. 
 
@@ -331,7 +331,7 @@ ID                  Parent ID           Command
 
 ### Gonderim
 
-* [Proje Dave Linki](https://classroom.github.com/a/TN096GAE)
+* [Proje Davet Linki](https://classroom.github.com/a/TN096GAE)
 * Son gonderim tarihi: `26 Kasim 2022 - 23:59`
 * Projenize (reponuza) {ogrenci.no}.txt bir bos dosya ekleyiniz. Ogrenci numarasi 1234567890 olan birinin projesine eklemesi gereken bos dosyanin ismi 1234567890.txt olmalidir. Bu dosya sayesinde Github kullanici adlari ile dersi alan ogrenciler eslestirilecektir. 
 
