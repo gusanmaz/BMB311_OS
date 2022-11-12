@@ -427,3 +427,55 @@ adreslerindeki kod orneklerini incelemeniz faydali olacaktir.
 * Projenize (reponuza) {ogrenci.no}.txt bir bos dosya ekleyiniz. Ogrenci numarasi 1234567890 olan birinin projesine eklemesi gereken bos dosyanin ismi 1234567890.txt olmalidir. Bu dosya sayesinde Github kullanici adlari ile dersi alan ogrenciler eslestirilecektir. 
 
 
+### Proje No: 4 - Process Calisiyor mu?
+
+### Proje Aciklamasi
+
+* Bu projede yazacaginiz programin komut satirindan bir int deger almasi beklenmektedir. Eger sistemde pid degeri bu deger olan bir process varsa program bu processin ismini (calistirdigi komutu) ekrana yazdiracaktir. Aksi durumda program ekrana NULL yazdiracaktir.
+
+* Sisteminizde `top` komutunu calistirdiginizda asagidaki gibi bir terminal ciktisi almis oldugunuz varsayalim:
+
+![https://www.tecmint.com/wp-content/uploads/2013/03/List-of-Linux-Processes-by-PID.png](https://www.tecmint.com/wp-content/uploads/2013/03/List-of-Linux-Processes-by-PID.png)
+
+* Ayrica projenizi `gcc -o main main.c` koduyla derlediginizi ve programinizin dogru calistigini varsayalim. Bu durumda terminalde calistiracagimiz bazi kodlarin ciktisi asagidaki gibi olacaktir.
+
+```bash
+./main 1681
+mysql
+```
+
+```bash
+./main 1515
+NULL
+```
+
+```bash
+./main 13228
+nginx
+```
+
+* Pid degeri verilen processin calistirdigi komuta programiniz `/proc` dosya sistemi uzerinden erismelidir. Proc dosya sistemini anlamaniz icin 2. projede verilen ornek koddaki bazi fonksiyonlarin kodlarini incelemeniz faydali olabilir.
+* Bu projeyi kodlarken `exec***` turu sistem cagrilari kullanmayiniz!
+
+### Uyarilar
+
+* Programiniz Linux sistemlerde calistirilabilir olmalidir.
+* Programinizi C dili kullanarak yaziniz. 
+* Tum C kodunu main.c isimli bir dosya icinde yaziniz.
+* Davet linkini tiklayarak repo olusturdugunuzda size bos bir main.c dosyasi verilecektir.
+* Bu dosya uzerinde gerekli degisikleri yaptiktan sonra kodunuzu commit edebilirsiniz.
+* Gonderdiginiz kodun sorunsuz derlenebildiginden emin olunuz. Derleme hatasi alacak projeler 0 puan olacaktir!
+* Derlenen projenizin calisma esnasinda hata uretmediginden emin olun. Calisirken hata alabilecek projeler projeden dusuk puan almaniza sebep olabilir.
+* Bu proje otomatik kod degerlendirme sistemi tarafindan degerlendirilebilir.
+* Bu projenin kodlanmasinda her ogrencinin bireysel calismasi beklenmektedir. 
+* Proje notlari ilan edildikten sonra yazdiginiz kodlari aciklamaniz istenebilir. Yazilan kodlari duzgun aciklayamayan ogrencilerin proje notlari degisebilir.
+
+### Gonderim
+
+* [Proje Davet Linki](https://classroom.github.com/a/OjeGzPuj)
+* Son gonderim tarihi: `26 Kasim 2022 - 23:59`
+* Projenize (reponuza) {ogrenci.no}.txt bir bos dosya ekleyiniz. Ogrenci numarasi 1234567890 olan birinin projesine eklemesi gereken bos dosyanin ismi 1234567890.txt olmalidir. Bu dosya sayesinde Github kullanici adlari ile dersi alan ogrenciler eslestirilecektir. 
+
+
+
+
