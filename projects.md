@@ -427,7 +427,7 @@ adreslerindeki kod orneklerini incelemeniz faydali olacaktir.
 * Projenize (reponuza) {ogrenci.no}.txt bir bos dosya ekleyiniz. Ogrenci numarasi 1234567890 olan birinin projesine eklemesi gereken bos dosyanin ismi 1234567890.txt olmalidir. Bu dosya sayesinde Github kullanici adlari ile dersi alan ogrenciler eslestirilecektir. 
 
 
-### Proje No: 4 - Process Calisiyor mu?
+### Proje No: 4 - PID2Command
 
 ### Proje Aciklamasi
 
