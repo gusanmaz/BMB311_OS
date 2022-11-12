@@ -335,3 +335,95 @@ ID                  Parent ID           Command
 * Son gonderim tarihi: `26 Kasim 2022 - 23:59`
 * Projenize (reponuza) {ogrenci.no}.txt bir bos dosya ekleyiniz. Ogrenci numarasi 1234567890 olan birinin projesine eklemesi gereken bos dosyanin ismi 1234567890.txt olmalidir. Bu dosya sayesinde Github kullanici adlari ile dersi alan ogrenciler eslestirilecektir. 
 
+### Proje No: 3 - Binary Stringlerin Icinde Toplamda Kac Kez 1 Rakami Gectigini Bulan Multithreading Program Yazimi
+
+### Proje Aciklamasi
+
+* Bu proje icin yazacaginiz program komut satirindan icinde binary string barindiran dosyalarin yollarini (path) parametre olarak alip bu dosyalarin icerdigi binary stringlerde toplamda kac defa 1 rakaminin kullanildiginin bilgisini ekrana yazdiracaktir.
+* Binary string barindiran bazi dosya orneklerine [https://github.com/gusanmaz/BMB311_OS/tree/main/proje3-test-dosyalari](https://github.com/gusanmaz/BMB311_OS/tree/main/proje3-test-dosyalari) baglantisindan erisebilirsiniz.
+* Programinizi `gcc -o main main.c` komutu ile derlediginizi ve yukaridaki baglantidaki ornek dosyalari `main` calistirabilir (executable) dosyasinin bulundugu dizine kopyaladiginizi varsayin. Bu durumda terminalde bu klasor altinda calistirabileceginiz bazi ornek komutlar ve bu komutlarin uretmesi beklenen ciktilar asagida verilmistir.
+
+```bash
+./main ./main 1-10.txt 3-10.txt
+Total Number of Ones in All Files: 11
+```
+
+```bash
+./main 8-10.txt 5-10.txt 4-10.txt
+Total Number of Ones in All Files: 14
+```
+
+```bash
+./main 8-10.txt
+Total Number of Ones in All Files: 3
+```
+
+```bash
+./main 
+Total Number of Ones in All Files: 0
+```
+
+```bash
+./main 1-10M.txt 2-10M.txt 4-10M.txt
+Total Number of Ones in All Files: 15001073
+```
+
+* Arguman olarak alinan dosya ilgili klasorde bulunmuyorsa program o dosyadaki 0 adet 1 rakami bulundugunu varsaymalidir. Ornegin komut satiri argumanlarindan biri `main` dosyasinin bulundugu klasorde bulunmayan xyzqw.txt ise calistirilan program bu dosyadaki 1 rakami sayisini 0 olarak kabul etmelidir.
+
+```bash
+./main 8-10.txt xyzqw.txt
+Total Number of Ones in All Files: 3
+```
+
+* Asagidaki komutlarin calisma seklini anlamak icin [https://ryanstutorials.net/linuxtutorial/wildcards.php](https://ryanstutorials.net/linuxtutorial/wildcards.php) sayfasini inceleyiniz. Ozellikle bu sayfadaki *Under The Hood* alt basligi altinda verilen bilgileri anlamaya calisiniz.
+
+```bash
+./main *-10.txt
+Total Number of Ones in All Files: 53
+```
+
+```bash
+./main *-10M.txt
+Total Number of Ones in All Files: 24647735
+```
+
+```bash
+./main [134589]-10.txt
+Total Number of Ones in All Files: 29
+```
+
+* Yazacaginiz program her bir dosyadaki 1 rakaminin sayisini tespit etme isi icin `phtread_create` fonksiyonunu kullanarak ayri bir thread acmalidir. 
+* Ornegin `./main 8-10.txt 5-10.txt 4-10.txt` komutu calistirildiginda programiniz 3 farkli thread olusturmalidir. Ilk threadde `8-10.txt` dosyasindaki 1 rakami sayisi tespit edilmeli; 2. threadde `5-10.txt` dosyasindaki 1 rakami sayisi tespit edilmeli ve 3. threadde `4-10.txt` dosyasindaki 1 rakami sayisi tespit edilmelidir.
+* `pthread_create` fonksiyonu kullanarak olusturulacak her thread parametre olarak dosya ismi alacak ve bu dosyada bulunan toplam 1 rakaminin sayisini hesaplayacak bir fonksiyon calistirmalidir. 
+* `main` fonksiyonu altinda `phtread-join` fonksiyonu kullanarak bu threadlerin calismalarini bitirmeleri beklenmeli ve her threadin dondurdugu deger (calisilan dosyadaki toplam 1 rakami sayisi) toplanarak elde edilecek toplam degeri ekrana yazdirilmalidir.
+* Bu proje `malloc`, `sprintf`, `printf`, `fopen`, `fgetc`, `feof`, `pthread_create`, ve `pthread_join` fonksiyonlari kullanilarak kodlanabilmektedir. Bu fonksiyonlarin nasil kullanabilecegini gormek icin bu fonksiyonlar manual sayfalari `man` komutu ile terminal ekrani icinden okunabilir.
+* Thread kullanarak yazdiginiz bu programin nasil en hizli calisabilecegi uzerinde dusunup kodunuzda uygun gordugunuz degisiklikleri yapin. Daha hizli calisan programlar **ekstra puan** almaya hak kazabilir. Yazdiginiz programin hizini daha saglikli test edebilmek icin programiniz daha buyuk boyutlu dosyalar (ornegin sonu 10M.txt olan dosyalar) ile calistirmaniz dogru bir strateji olacaktir. Dilerseniz size verilen test dosyalarindan daha buyuk buyuk boyutlu dosyalar hazirlayip programinizin hizini bu dosyalar uzerinde de test edebilirsiniz.
+* Programiniz ne kadar hizli calistigini anlayabilmek icin `time` komutunu kullanabilirsiniz. Bu komut hakkinda [https://unix.stackexchange.com/questions/86632/how-do-you-time-how-long-a-command-took-to-run](https://unix.stackexchange.com/questions/86632/how-do-you-time-how-long-a-command-took-to-run) ve [https://stackoverflow.com/questions/556405/what-do-real-user-and-sys-mean-in-the-output-of-time1](https://stackoverflow.com/questions/556405/what-do-real-user-and-sys-mean-in-the-output-of-time1) sayfalarini inceleyerek bilgi edinebilirsiniz. 
+
+### Uyarilar
+
+* Programiniz Linux sistemlerde calistirilabilir olmalidir.
+* Programinizi C dili kullanarak yaziniz. 
+* Tum C kodunu main.c isimli bir dosya icinde yaziniz.
+* Davet linkini tiklayarak repo olusturdugunuzda size bos bir main.c dosyasi verilecektir.
+* Bu dosya uzerinde gerekli degisikleri yaptiktan sonra kodunuzu commit edebilirsiniz.
+* Gonderdiginiz kodun sorunsuz derlenebildiginden emin olunuz. Derleme hatasi alacak projeler 0 puan olacaktir!
+* Derlenen projenizin calisma esnasinda hata uretmediginden emin olun. Calisirken hata alabilecek projeler projeden dusuk puan almaniza sebep olabilir.
+* Bu proje otomatik kod degerlendirme sistemi tarafindan degerlendirilebilir.
+* Bu projenin kodlanmasinda her ogrencinin bireysel calismasi beklenmektedir. 
+* Proje notlari ilan edildikten sonra yazdiginiz kodlari aciklamaniz istenebilir. Yazilan kodlari duzgun aciklayamayan ogrencilerin proje notlari degisebilir.
+
+### Kaynaklar
+
+* Bu projeyi yapmak icin 
+    * [https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf), [https://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf](https://github.com/remzi-arpacidusseau/ostep-code/tree/master/threads-intro) kitap bolumlerini 
+    * ve [https://github.com/remzi-arpacidusseau/ostep-code/tree/master/cpu-api](https://github.com/remzi-arpacidusseau/ostep-code/tree/master/cpu-api), [https://github.com/remzi-arpacidusseau/ostep-code/tree/master/threads-api](https://github.com/remzi-arpacidusseau/ostep-code/tree/master/threads-api)
+adreslerindeki kod orneklerini incelemeniz faydali olacaktir.
+
+### Gonderim
+
+* [Proje Davet Linki](https://classroom.github.com/a/FiAwVFvv)
+* Son gonderim tarihi: `26 Kasim 2022 - 23:59`
+* Projenize (reponuza) {ogrenci.no}.txt bir bos dosya ekleyiniz. Ogrenci numarasi 1234567890 olan birinin projesine eklemesi gereken bos dosyanin ismi 1234567890.txt olmalidir. Bu dosya sayesinde Github kullanici adlari ile dersi alan ogrenciler eslestirilecektir. 
+
+
