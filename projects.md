@@ -203,7 +203,7 @@ Proje icin yazacaginiz kodun gercekten 1023 cocuk process olusturup olusturmadig
 * Bu proje icin yazacaginiz program calistirildiginda
     * basliktan sonraki en ust satira calisan processing id, pid (parent id) ve ismi (programi calistiran komut) ekrana yazdirilacak;
     * sonraki satirlarda ise bir ust satirdaki processin ebeveyni olan processe dair ayni tur bilgiler (id, pid ve komut) yazdirilacaktir.
-* Dolayisyla son satirda butun processlerin ebevyni olan id degeri 1 olan processe (init, systemd) dair bilgiler ekrana yazdirilacaktir.
+* Dolayisyla son satirda butun processlerin ebevyni olan id degeri 1 olan processe (init) dair bilgiler ekrana yazdirilacaktir.
 
 ### Uyarilar
 
@@ -327,6 +327,7 @@ ID                  Parent ID           Command
 609630              609333              /usr/bin/kate                                     
 609333              609170              /usr/bin/ksmserver                                
 609170              1                   /lib/systemd/systemd
+1                   0                   /sbin/init
 ```
 
 ### Gonderim
