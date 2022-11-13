@@ -28,6 +28,7 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 * [Advanced Linux Programming](https://mentorembedded.github.io/advancedlinuxprogramming/alp-folder/) ***Pratik Kaynak***
 * [Operating Systems: Crash Course Computer Science #18](https://www.youtube.com/watch?v=26QPDBe-NB8) ***~10 dakikada isletim sistemleri***
 * [Turkce Linux Dersleri](https://linux-dersleri.github.io/)
+* [Belgeler.org (Muhtemelen Guncel Degil)](http://www.belgeler.org/)
 
 #### Komut Satiri ve Kabuk Programlama
 
