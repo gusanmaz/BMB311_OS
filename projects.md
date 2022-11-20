@@ -183,6 +183,10 @@ Ornek program icin `strace -cf ./main` komutunu calistirirsaniz asagidakine benz
 100.00    0.000571           5       110        19 total
 ```
 
+### Mac Kullancilari icin `dtruss`
+
+[dtruss](https://github.com/gusanmaz/BMB311_OS/discussions/8)
+
 `fork` sistem cagrisi kendi icinde `clone` sistem cagrisini yapmaktadir. Dolayisiyla yukaridaki tablodan ornek programimiz
 calistirildiginda toplamda 7 kez fork sistem cagrisinin yapildigi sonucuna varabiliriz. Buradan da calistirdigimiz programin
 toplamda 7 cocuk process olusturdugunu soyleyebiliriz. 
