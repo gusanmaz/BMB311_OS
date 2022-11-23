@@ -346,7 +346,7 @@ ID                  Parent ID           Command
 
 * Bu proje icin yazacaginiz program komut satirindan icinde binary string barindiran dosyalarin yollarini (path) parametre olarak alip bu dosyalarin icerdigi binary stringlerde toplamda kac defa 1 rakaminin kullanildiginin bilgisini ekrana yazdiracaktir.
 * Binary string barindiran bazi dosya orneklerine [https://github.com/gusanmaz/BMB311_OS/tree/main/proje3-test-dosyalari](https://github.com/gusanmaz/BMB311_OS/tree/main/proje3-test-dosyalari) baglantisindan erisebilirsiniz.
-* Programinizi `gcc -o main main.c` komutu ile derlediginizi ve yukaridaki baglantidaki ornek dosyalari `main` calistirabilir (executable) dosyasinin bulundugu dizine kopyaladiginizi varsayin. Bu durumda terminalde bu klasor altinda calistirabileceginiz bazi ornek komutlar ve bu komutlarin uretmesi beklenen ciktilar asagida verilmistir.
+* Programinizi `gcc -pthread -o main main.c` komutu ile derlediginizi ve yukaridaki baglantidaki ornek dosyalari `main` calistirabilir (executable) dosyasinin bulundugu dizine kopyaladiginizi varsayin. Bu durumda terminalde bu klasor altinda calistirabileceginiz bazi ornek komutlar ve bu komutlarin uretmesi beklenen ciktilar asagida verilmistir.
 
 ```
 ./main 1-10.txt 3-10.txt
