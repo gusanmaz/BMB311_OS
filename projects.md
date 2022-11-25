@@ -1,5 +1,9 @@
 # Projeler
 
+## Duyuru !!
+
+**Proje[1-4] icin son gonderim tarihi 27 Kasim'a uzatilmistir. Yapilacak yeni degerlendirmeye gore odev suresi ***belki*** 1 hafta daha uzatilabilir.***
+
 ## Proje 0 - B205 Guc Ayarlari Isinin Otomatize Edilmesi (Ekstra Proje)
 
 * Bu projede istenilenleri yerine getiren ogrenciler ekstra odev puani alacaklardir. 
