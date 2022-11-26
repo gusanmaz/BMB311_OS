@@ -2,7 +2,7 @@
 
 ## Duyuru !!
 
-**Proje[1-4] icin son gonderim tarihi 4 Aralik`a uzatilmistir.!**
+**Proje[1-4] icin son gonderim tarihi 4 Aralik'a uzatilmistir!**
 
 ## Proje 0 - B205 Guc Ayarlari Isinin Otomatize Edilmesi (Ekstra Proje)
 
