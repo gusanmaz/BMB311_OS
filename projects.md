@@ -2,7 +2,7 @@
 
 ## Duyuru !!
 
-**Proje[1-4] icin son gonderim tarihi 27 Kasim'a uzatilmistir. Yapilacak yeni degerlendirmeye gore odev suresi *belki* 1 hafta daha uzatilabilir**
+**Proje[1-4] icin son gonderim tarihi 4 Aralik`a uzatilmistir.!**
 
 ## Proje 0 - B205 Guc Ayarlari Isinin Otomatize Edilmesi (Ekstra Proje)
 
@@ -201,7 +201,7 @@ Proje icin yazacaginiz kodun gercekten 1023 cocuk process olusturup olusturmadig
 ### Gonderim
 
 * [Proje Davet Linki](https://classroom.github.com/a/VP9bCWRY)
-* Son gonderim tarihi: `27 Kasim 2022 - 23:59`
+* Son gonderim tarihi: `4 Aralik 2022 - 23:59`
 * Projenize (reponuza) {ogrenci.no}.txt bir bos dosya ekleyiniz. Ogrenci numarasi 1234567890 olan birinin projesine eklemesi gereken bos dosyanin ismi 1234567890.txt olmalidir. Bu dosya sayesinde Github kullanici adlari ile dersi alan ogrenciler eslestirilecektir. 
 
 ## Proje No: 2 - Process Ebevynlerinin Listelenmesi
@@ -341,7 +341,7 @@ ID                  Parent ID           Command
 ### Gonderim
 
 * [Proje Davet Linki](https://classroom.github.com/a/TN096GAE)
-* Son gonderim tarihi: `27 Kasim 2022 - 23:59`
+* Son gonderim tarihi: `4 Aralik 2022 - 23:59`
 * Projenize (reponuza) {ogrenci.no}.txt bir bos dosya ekleyiniz. Ogrenci numarasi 1234567890 olan birinin projesine eklemesi gereken bos dosyanin ismi 1234567890.txt olmalidir. Bu dosya sayesinde Github kullanici adlari ile dersi alan ogrenciler eslestirilecektir. 
 
 ### Proje No: 3 - Binary Stringlerin Icinde Toplamda Kac Kez 1 Rakami Gectigini Bulan Multithreading Program Yazimi
@@ -432,7 +432,7 @@ adreslerindeki kod orneklerini incelemeniz faydali olacaktir.
 ### Gonderim
 
 * [Proje Davet Linki](https://classroom.github.com/a/FiAwVFvv)
-* Son gonderim tarihi: `27 Kasim 2022 - 23:59`
+* Son gonderim tarihi: `4 Aralik 2022 - 23:59`
 * Projenize (reponuza) {ogrenci.no}.txt bir bos dosya ekleyiniz. Ogrenci numarasi 1234567890 olan birinin projesine eklemesi gereken bos dosyanin ismi 1234567890.txt olmalidir. Bu dosya sayesinde Github kullanici adlari ile dersi alan ogrenciler eslestirilecektir. 
 
 
@@ -482,7 +482,7 @@ nginx
 ### Gonderim
 
 * [Proje Davet Linki](https://classroom.github.com/a/OjeGzPuj)
-* Son gonderim tarihi: `27 Kasim 2022 - 23:59`
+* Son gonderim tarihi: `4 Aralik 2022 - 23:59`
 * Projenize (reponuza) {ogrenci.no}.txt bir bos dosya ekleyiniz. Ogrenci numarasi 1234567890 olan birinin projesine eklemesi gereken bos dosyanin ismi 1234567890.txt olmalidir. Bu dosya sayesinde Github kullanici adlari ile dersi alan ogrenciler eslestirilecektir. 
 
 
