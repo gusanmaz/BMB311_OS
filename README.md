@@ -8,7 +8,7 @@ Bu repo'da uygulama derslerine ait materyallere (ders notlari, odev bilgileri, p
 
 [Detaylar](https://github.com/gusanmaz/BMB311_OS/blob/main/projects.md)
 
-### Instructor
+### Iletisim
 
 Ars. Gor. Güvenç Usanmaz
 
