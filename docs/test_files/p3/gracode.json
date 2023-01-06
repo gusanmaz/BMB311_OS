@@ -1,0 +1,94 @@
+{
+  "name" : "Proje 1 Not Tablosu",
+  "explanation" : "Proje 1 aciklamalarina github.com'dan erisebilirsiniz",
+  "weight" : 20,
+  "referenceUser" : "gusanmaz",
+  "copyDir" : "public_codes",
+  "githubRepo" : "gusanmaz/BMB311_OS",
+  "projectDir" : "p3",
+  "tasks": [
+    {
+      "testName": "1",
+      "point": 10,
+      "testTitle": "Derlenme",
+      "explanation": "Yazilan kodun derlenip derlenmedigi test ediliyor",
+      "function":    "c_main_compile"
+    },
+    {
+      "testName": "2",
+      "point": 15,
+      "testTitle": "p3_relaxed_check",
+      "explanation": "Yazilan kodun `./main $(pidof cupsd)` icin dogru cikti uretip uretmedigi test ediliyor. Bu test esnek bir testtir. Calistirilan program ciktisinda `cupsd` stringi gecmesi durumunda test edilen program bu testi gecer.",
+      "function":    "p3_relaxed_check"
+    },
+    {
+      "testName": "3",
+      "point": 15,
+      "testTitle": "p3_relaxed_check",
+      "explanation": "Yazilan kodun `./main $(pidof cupsd)` icin dogru cikti uretip uretmedigi test ediliyor. Bu test esnek bir testtir. Calistirilan program ciktisinda `cupsd` stringi gecmesi durumunda test edilen program bu testi gecer.",
+      "function":    "p3_relaxed_check"
+    },
+    {
+      "testName": "4",
+      "point": 15,
+      "testTitle": "p3_relaxed_check",
+      "explanation": "Yazilan kodun `./main $(pidof cupsd)` icin dogru cikti uretip uretmedigi test ediliyor. Bu test esnek bir testtir. Calistirilan program ciktisinda `cupsd` stringi gecmesi durumunda test edilen program bu testi gecer.",
+      "function":    "p3_relaxed_check"
+    },
+    {
+      "testName": "5",
+      "point": 15,
+      "testTitle": "p3_relaxed_check",
+      "explanation": "Yazilan kodun `./main $(pidof cupsd)` icin dogru cikti uretip uretmedigi test ediliyor. Bu test esnek bir testtir. Calistirilan program ciktisinda `cupsd` stringi gecmesi durumunda test edilen program bu testi gecer.",
+      "function":    "p3_relaxed_check"
+    },
+    {
+      "testName": "6",
+     "point": 15,
+      "testTitle": "p3_relaxed_check",
+      "explanation": "Yazilan kodun `./main $(pidof cupsd)` icin dogru cikti uretip uretmedigi test ediliyor. Bu test esnek bir testtir. Calistirilan program ciktisinda `cupsd` stringi gecmesi durumunda test edilen program bu testi gecer.",
+      "function":    "p3_relaxed_check"
+    },
+    {
+      "testName": "7",
+      "point": 15,
+      "testTitle": "p3_relaxed_check",
+      "explanation": "Yazilan kodun `./main $(pidof cupsd)` icin dogru cikti uretip uretmedigi test ediliyor. Bu test esnek bir testtir. Calistirilan program ciktisinda `cupsd` stringi gecmesi durumunda test edilen program bu testi gecer.",
+      "function":    "p3_relaxed_check"
+    },
+    {
+      "testName": "8",
+     "point": 15,
+      "testTitle": "p3_relaxed_check",
+      "explanation": "Yazilan kodun `./main $(pidof cupsd)` icin dogru cikti uretip uretmedigi test ediliyor. Bu test esnek bir testtir. Calistirilan program ciktisinda `cupsd` stringi gecmesi durumunda test edilen program bu testi gecer.",
+      "function":    "p3_relaxed_check"
+    },
+    {
+      "testName": "9",
+      "point": 15,
+      "testTitle": "p3_relaxed_check",
+      "explanation": "Yazilan kodun `./main $(pidof cupsd)` icin dogru cikti uretip uretmedigi test ediliyor. Bu test esnek bir testtir. Calistirilan program ciktisinda `cupsd` stringi gecmesi durumunda test edilen program bu testi gecer.",
+      "function":    "p3_relaxed_check"
+    },
+    {
+      "testName": "10",
+      "point": 15,
+      "testTitle": "p3_relaxed_check",
+      "explanation": "Yazilan kodun `./main $(pidof cupsd)` icin dogru cikti uretip uretmedigi test ediliyor. Bu test esnek bir testtir. Calistirilan program ciktisinda `cupsd` stringi gecmesi durumunda test edilen program bu testi gecer.",
+      "function":    "p3_relaxed_check"
+    },
+    {
+      "testName": "11",
+      "point": 0,
+      "testTitle": "Yazilan programin performansini test etme",
+      "explanation": "Yazilan programin performansini test etme.",
+      "function":    "p3_perf",
+      "timeout": 1
+    },
+    {
+      "testName": "copy"
+    }
+
+
+  ]
+}
