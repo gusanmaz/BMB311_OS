@@ -101,9 +101,9 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 ### Proje Test Dosyalari
 
 * [Proje 1](https://github.com/gusanmaz/BMB311_OS/tree/main/docs/test_files/p1)
-* [Proje 2](https://github.com/gusanmaz/BMB311_OS/tree/main/docs/test_files/p1)
-* [Proje 3](https://github.com/gusanmaz/BMB311_OS/tree/main/docs/test_files/p1)
-* [Proje 4](https://github.com/gusanmaz/BMB311_OS/tree/main/docs/test_files/p1)
+* [Proje 2](https://github.com/gusanmaz/BMB311_OS/tree/main/docs/test_files/p2)
+* [Proje 3](https://github.com/gusanmaz/BMB311_OS/tree/main/docs/test_files/p3)
+* [Proje 4](https://github.com/gusanmaz/BMB311_OS/tree/main/docs/test_files/p4)
 
 * Test dosyalari `commands.sh` isimli Bash scripti dosyalarina yazilmistir.
 * `gracode.json` isimli dosyada testlerin puan bilgisi, her test icin ogrencinin kodunun, referans kod ile karsilastirmasi icin hangi Python fonksiyonunun
