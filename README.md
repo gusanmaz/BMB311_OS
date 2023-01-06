@@ -117,6 +117,47 @@ kullanilacagi gibi bilgiler yer almaktadir.
 * [Proje 3](https://github.com/gusanmaz/BMB311_OS/blob/main/docs/codes/masked/p3/g******z/main.c)
 * [Proje 4](https://github.com/gusanmaz/BMB311_OS/blob/main/docs/codes/masked/p4/g******z/main.c)
 
+### Performans Analizi
+
+* Her odev icin `perf` komutu ile performans analizi yapilmistir. Bu komutun kodunuz icin urettigi ciktiya ilgili json dosyasindan erisebilirsiniz.
+* Kodlarin notlandirilmasinda kodlarin performansi kriter olarak kullanilmamistir.
+* Bununla birlikte her testin belli bir surede tamamlanmasi beklenmektedir. Her test icin ayri belirlenen bu sureleri `commands.sh` dosyalarini inceleyerek gorebilirsiniz. Eger JSON dosyasinda bir test icin `timeout` degeri `True` gozukuyorsa ilgili kodun testte verilen maksimum sure icinde calismasini bitiremedigi anlasilmalidir.
+
+### Tablo Okuma
+
+* Mouse imlecini tablolarin basligindaki testlerin uzerine getirerek referans kodun o test icin urettigi ciktiyi (stdout, stderr) gorebilirsiniz.
+* Ayni sekilde belirli bir sekilde ogrenci icin mouse imlecini testlerin uzerine getirerek ilgili kodun o test icin urettigi ciktiyi (stdout, stderr) gorebilirsiniz.
+*  `stdout` ve `stderr` ciktilarinin cok uzun olmasi durumunda bu ciktilari tablo uzerinde goremeyebilirsiniz. Bu durumda ilgili ciktilara ilgili JSON dosyasindan erisebilirsiniz.
+*  Tablolarda sadece kurallara uygun gonderim yapan ogrencilerin isimleri gozukmektedir.
+*  Tablolardaki satirlar ogrenci numarasina gore siralidir.
+
+### JSON
+
+* `https://github.com/gusanmaz/BMB311_OS/blob/main/docs/codes/masked/` altindaki bir json dosyasini incelemek istiyorsaniz bu dosyayi once bilgisayariniza indirmeniz veya JSON verisinin tamamini bilgisayarinizda bir metin editorune kopyalayip, json uzantisiyla kaydetmeniz tavsiye edilir.
+* Daha sonra bilgisayarindaki bu JSON dosyasini bir JSON Goruntuleyici program yardimiyla daha rahat goruntuleyebilirsiniz. 
+* Pek cok ucretsiz JSON Goruntuleyici (JSON Viewer) program bulunmaktadir.
+* JSON dosyalarinin goruntulemek icin `Mozilla Firefox` internet tarayicisini da kullanabilirsiniz.
+
+### Beklenilenden Dusuk Not Alma Nedenleri
+
+* Olusturulan repoya ogrenci_no.txt isimli dosya eklememek
+* Olusturulan repodaki kodlari main.c isimli dosya haricinde bir dosyaya yazmak.
+* Proje aciklamalarinda argumanlarin komut satirindan alinacagi belirtilmesine ragmen `scanf` gibi fonksiyonlarla kullanicidan input almaya calismak
+* Her bir proje icin ayri bir repo davet linki verilmesine ragmen butun proje kodlarini tek bir repoya yuklemek
+
+### Proje Notlandirma Detaylari
+
+* 1. proje 100
+* 2. proje 130
+* 3. proje 145
+* 4. proje 120
+
+puan uzerinden degerlendirilmistir.
+
+
+
+
+
 
 
 
