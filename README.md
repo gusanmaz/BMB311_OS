@@ -112,10 +112,10 @@ kullanilacagi gibi bilgiler yer almaktadir.
 
 ### Referans Proje Kodlari
 
-[Proje 1](https://github.com/gusanmaz/BMB311_OS/blob/main/docs/codes/masked/p1/g******z/main.c)
-[Proje 2](https://github.com/gusanmaz/BMB311_OS/blob/main/docs/codes/masked/p2/g******z/main.c)
-[Proje 3](https://github.com/gusanmaz/BMB311_OS/blob/main/docs/codes/masked/p3/g******z/main.c)
-[Proje 4](https://github.com/gusanmaz/BMB311_OS/blob/main/docs/codes/masked/p4/g******z/main.c)
+* [Proje 1](https://github.com/gusanmaz/BMB311_OS/blob/main/docs/codes/masked/p1/g******z/main.c)
+* [Proje 2](https://github.com/gusanmaz/BMB311_OS/blob/main/docs/codes/masked/p2/g******z/main.c)
+* [Proje 3](https://github.com/gusanmaz/BMB311_OS/blob/main/docs/codes/masked/p3/g******z/main.c)
+* [Proje 4](https://github.com/gusanmaz/BMB311_OS/blob/main/docs/codes/masked/p4/g******z/main.c)
 
 
 
