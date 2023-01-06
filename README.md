@@ -154,6 +154,8 @@ kullanilacagi gibi bilgiler yer almaktadir.
 
 puan uzerinden degerlendirilmistir.
 
+* 3. proje https://github.com/gusanmaz/BMB311_OS/tree/main/proje3-test-dosyalari baglantisindaki metin dosyalari kullanilarak test edilmistir.
+
 
 
 
