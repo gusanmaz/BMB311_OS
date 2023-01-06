@@ -130,6 +130,7 @@ kullanilacagi gibi bilgiler yer almaktadir.
 *  `stdout` ve `stderr` ciktilarinin cok uzun olmasi durumunda bu ciktilari tablo uzerinde goremeyebilirsiniz. Bu durumda ilgili ciktilara ilgili JSON dosyasindan erisebilirsiniz.
 *  Tablolarda sadece kurallara uygun gonderim yapan ogrencilerin isimleri gozukmektedir.
 *  Tablolardaki satirlar ogrenci numarasina gore siralidir.
+*  Tablolardaki son test aslinda bir test degildir! Her projede son testte `perf` komutu calistirilmaktadir. Tablodaki butun ogrenciler icin bu test basarili gozukmektedir. Bu test basarili olmanin projeden alinan toplam puana katkisi 0'dir.
 
 ### JSON
 
