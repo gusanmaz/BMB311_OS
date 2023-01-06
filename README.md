@@ -157,7 +157,7 @@ puan uzerinden degerlendirilmistir.
 
 3. proje https://github.com/gusanmaz/BMB311_OS/tree/main/proje3-test-dosyalari baglantisindaki metin dosyalari kullanilarak test edilmistir.
 
-Otomatik degerlendirme programi Fedora Linux 37 uzerinde gcc 12.2.1 kullanilarak calistirilmistir.
+* Otomatik degerlendirme programi Fedora Linux 37 uzerinde gcc 12.2.1 kullanilarak calistirilmistir.
 
 
 
