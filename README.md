@@ -87,6 +87,8 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 * Bu sayfada ilan edilecek proje ve odevlerde istenilenleri yapmak
 * Universite email hesabinizi duzenli araliklarla kontrol etmek.
 
+[Proje 1](https://github.com/gusanmaz/BMB311_OS/blob/main/docs/grades/p1.html)
+
 
 
 
