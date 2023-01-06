@@ -87,12 +87,37 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 * Bu sayfada ilan edilecek proje ve odevlerde istenilenleri yapmak
 * Universite email hesabinizi duzenli araliklarla kontrol etmek.
 
-Proje Notlandirmalari
+## Proje Notlandirmalari
 
 * [Proje 1](https://gusanmaz.github.io/BMB311_OS/grades/p1.html)
 * [Proje 2](https://gusanmaz.github.io/BMB311_OS/grades/p2.html)
 * [Proje 3](https://gusanmaz.github.io/BMB311_OS/grades/p3.html)
 * [Proje 4](https://gusanmaz.github.io/BMB311_OS/grades/p4.html)
+
+* Tablolarda her satirda odev gonderen bir ogrencinin o projedeki testlerdeki basari durumu gorulebilir.
+* REPO URL'sinden o ogrencinin proje icin gonderdigi `main.c` dosyasina ve uygulanan testlerle ilgili detayli bilgiler iceren json dosyasina erisilebilmektedir.
+* Kodlari test etmek icin kullanilan programin kodlarina [https://github.com/gusanmaz/gracode](https://github.com/gusanmaz/gracode) baglantisindan erisebilirsiniz.
+
+### Proje Test Dosyalari
+
+* [Proje 1](https://github.com/gusanmaz/BMB311_OS/tree/main/docs/test_files/p1)
+* [Proje 2](https://github.com/gusanmaz/BMB311_OS/tree/main/docs/test_files/p1)
+* [Proje 3](https://github.com/gusanmaz/BMB311_OS/tree/main/docs/test_files/p1)
+* [Proje 4](https://github.com/gusanmaz/BMB311_OS/tree/main/docs/test_files/p1)
+
+* Test dosyalari `commands.sh` isimli Bash scripti dosyalarina yazilmistir.
+* `gracode.json` isimli dosyada testlerin puan bilgisi, her test icin ogrencinin kodunun, referans kod ile karsilastirmasi icin hangi Python fonksiyonunun
+kullanilacagi gibi bilgiler yer almaktadir.
+* Referans kod ile ogrenci kodunun ciktilarinin (stdout ve stderr) karsilastirilmasi icin kullanilan Python fonksiyonlarini  [funcs.py](https://github.com/gusanmaz/gracode/blob/main/funcs.py) dosyasindan erisebilirsiniz.
+
+### Referans Proje Kodlari
+
+[Proje 1](https://github.com/gusanmaz/BMB311_OS/blob/main/docs/codes/masked/p1/g******z/main.c)
+[Proje 2](https://github.com/gusanmaz/BMB311_OS/blob/main/docs/codes/masked/p2/g******z/main.c)
+[Proje 3](https://github.com/gusanmaz/BMB311_OS/blob/main/docs/codes/masked/p3/g******z/main.c)
+[Proje 4](https://github.com/gusanmaz/BMB311_OS/blob/main/docs/codes/masked/p4/g******z/main.c)
+
+
 
 
 
