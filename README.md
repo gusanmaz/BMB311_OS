@@ -145,6 +145,7 @@ kullanilacagi gibi bilgiler yer almaktadir.
 * Olusturulan repodaki kodlari main.c isimli dosya haricinde bir dosyaya yazmak.
 * Proje aciklamalarinda argumanlarin komut satirindan alinacagi belirtilmesine ragmen `scanf` gibi fonksiyonlarla kullanicidan input almaya calismak
 * Her bir proje icin ayri bir repo davet linki verilmesine ragmen butun proje kodlarini tek bir repoya yuklemek
+* Gonderilen kodun derlenmemesi
 
 ### Proje Notlandirma Detaylari
 
