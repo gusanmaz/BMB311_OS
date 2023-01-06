@@ -147,14 +147,14 @@ kullanilacagi gibi bilgiler yer almaktadir.
 
 ### Proje Notlandirma Detaylari
 
-* 1. proje 100
-* 2. proje 130
-* 3. proje 145
-* 4. proje 120
+1. proje 100
+2. proje 130
+3. proje 145
+4. proje 120
 
 puan uzerinden degerlendirilmistir.
 
-* 3. proje https://github.com/gusanmaz/BMB311_OS/tree/main/proje3-test-dosyalari baglantisindaki metin dosyalari kullanilarak test edilmistir.
+3. proje https://github.com/gusanmaz/BMB311_OS/tree/main/proje3-test-dosyalari baglantisindaki metin dosyalari kullanilarak test edilmistir.
 
 
 
