@@ -29,6 +29,7 @@ Email: gusanmaz <att< nku nokta edu nokta tr
 * [Operating Systems: Crash Course Computer Science #18](https://www.youtube.com/watch?v=26QPDBe-NB8) ***~10 dakikada isletim sistemleri***
 * [Turkce Linux Dersleri](https://linux-dersleri.github.io/)
 * [Belgeler.org (Muhtemelen Guncel Degil)](http://www.belgeler.org/)
+* [Prof. Kemal Bıçakçı İşletim Sistemleri Ders Videoları](https://www.youtube.com/watch?v=sqtkwd09KXs&list=PLmPsb7nQhv7NLRWdIiDVNBDCMOtuUn6WZ) - Ilgili videolarda kaynak kitap olarak **Operating Systems: Three Easy Pieces** kullanilmaktadir.
 
 #### Komut Satiri ve Kabuk Programlama
 
